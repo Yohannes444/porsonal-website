@@ -29,13 +29,24 @@ import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
 import close from './close.svg';
 import menu from './menu.svg';
+import nextLogo from './tech/nextLogo.png'
+import nestLogo from './tech/nestLogo.png'
 
 // Projects
 import pawsitivePrototype from './projects/pawsitive.jpeg';
 import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
+import kccm1 from './projects/kccm1.jpg';
+import child_logo from './projects/child_logo.png';
+import s_betting from './projects/s_betting.png';
+import appoin from './projects/appoin.png';
+import restorant from './projects/restorant.png';
+import avater1 from './avatar/avater1.jpg';
+import avater2 from './avatar/avater2.jpg';
+import logo from './logo/logo.png'
+import cv from './avatar/cv.png'
 
-// Avatar
+
 import avatar from './avatar/avatar.png';
 
 export {
@@ -57,9 +68,20 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
+  nextLogo,
+  nestLogo,
   pawsitivePrototype,
   calculator,
   memoryGame,
+  cv,
   avatar,
+  avater1,
+  avater2,
   bl33hIcon,
+  s_betting,
+  logo,
+  kccm1,
+  child_logo,
+  appoin,
+  restorant,
 };

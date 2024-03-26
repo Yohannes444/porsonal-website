@@ -37,12 +37,21 @@ import {
   viteIcon,
   nodeIcon,
   raspIcon,
+  nextLogo,
+  nestLogo,
   neoIcon,
   figmaIcon,
-  pawsitivePrototype,
+  s_betting,
   calculator,
   memoryGame,
   avatar,
+  avater1,
+  avater2,
+  kccm1,
+  child_logo,
+  appoin,
+  restorant,
+  logo,
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -65,6 +74,9 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  avater1,
+  avater2,
+  logo
 };
 
 const icons = {
@@ -83,9 +95,7 @@ const introduction = {
   text: [
     "Hello there, I'm so happy you are here! (:",
 
-		"My name is Sara, I'm 21 and a junior computer science student based in Guatemala. I have a strong passion for the technologies related to the data base construction and UX.",
-    "Outside of my regular activities, I'm into drawing whenever I have some free time. I'm also a huge dog lover and enjoy playing chess for fun.",
-
+    "My name is Yohannes, am full-stack developer. Over the past two years, I have honed my skills as a full-stack developer and have experience in creating innovative, efficient, and secure web applications. I possess extensive expertise in Nest.Js, Express.Js, Node Js, nextJs, React, MongoDB, JavaScript, TypeScript, and other essential web technologies. You can explore some of my projects on Project section on my website. I have    successfully developed and deployed diverse projects spanning various domains. Am currently working    as a full-stack developer at KTS(kegeberew technology solution) which is sister company of Purpose  Black Eth also working freelancer on several application par-time.",
     "I'm continuously thrilled to partner with individuals and teams who wholeheartedly embrace my fervor for crafting extraordinary experiences. Your visit to my portfolio is deeply appreciated !",
   ],
 };
@@ -110,31 +120,42 @@ export const navLinks = [
 ];
 
 const projects = [
+  
   {
-    name: "Arasartara's Gallery",
-    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-    image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
-  },
-  {
-    name: 'Pawsitive',
-    description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
-    image: pawsitivePrototype,
-    source_code_link: 'https://github.com/bl33h/pawsitive',
-    demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
-  },
-  {
-    name: 'Basic Calculator',
-    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
-    image: calculator,
+    name: 'virtual Betting Ticketing system',
+    description: 'I did This project as a freelancer for betting virtual hose.I use React to create this project.',
+    image: s_betting,
+    source_code_link: 'https://github.com/Yohannes444/wshaback-front',
+    demo_link: 'https://wshaback-front.vercel.app/',
+  },{
+    name: 'Restorant Confusion',
+    image: restorant,
     source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
+    description: 'this project is MERN stack project.this website have rest full api and user friendly use interface it helps user to see the menu and rate the food and leave there comment on each dishes.',
+    link: '',
+  },{
+    name: "Kegeberew Consumer Credit Management",
+    description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
+    image: kccm1,
+    source_code_link: '#',
+    demo_link: 'https://kccm.purposeblacketh.com/',
+  },{
+  name: 'Appointment Booking System',
+  image: appoin,
+  source_code_link: 'https://github.com/bl33h/calculator',
+  description: 'This project is done using node js and ejs. this project help user to book an appointment with the doctor they chose without have to go direct to the clint in person instead they can jest book appointment and go when the time arrive saving time and mony for bosh the clint and the clients',
+  link: 'https://github.com/Yohannes444/Appointments-booking-system',
+},{
+    name: 'Child Education Follow-up',
+    image: child_logo,
+    source_code_link: 'https://github.com/bl33h/calculator',
+    description: 'this project is MERN stack project. it have 4 actors parents, teachers, admin and cashier this project have real time chat section, attendance, registration method, online payment and mode different fitters.',
+    link: 'https://github.com/Yohannes444/child_education_followup',
   },
 ];
 
 const memoji = {
-  image: [avatar],
+  image: [avater2],
 };
 
 const skills = [
@@ -237,16 +258,16 @@ const skills = [
       'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
   },
   {
-    id: 'raspi',
-    title: 'Raspberry Pi',
-    icon: raspIcon,
+    id: 'nestJs',
+    title: 'Nest Js',
+    icon: nestLogo,
     description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
+      'I have hands-on experience with Next Js, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Next Js platform.',
   },
   {
-    id: 'eslint',
-    title: 'Eslint',
-    icon: eslintIcon,
+    id: 'NextJs',
+    title: 'Next Js',
+    icon: nextLogo,
     description:
       'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
   },
