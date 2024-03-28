@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { m, LazyMotion, domAnimation } from "framer-motion";
-import media from "../Constants/constants";
+import {media} from "../Constants/constants";
 
 const HeroText = () => {
   const name = "Yohannes Mulat";
