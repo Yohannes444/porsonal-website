@@ -44,6 +44,7 @@ import {
   s_betting,
   calculator,
   memoryGame,
+  cv,
   avatar,
   avater1,
   avater2,
@@ -76,7 +77,8 @@ const media = {
   avatar,
   avater1,
   avater2,
-  logo
+  logo,
+  cv
 };
 
 const icons = {
